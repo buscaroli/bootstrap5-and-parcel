@@ -38,13 +38,16 @@ $font-family-sans-serif: 'Poppins', sans-serif;
 .customIcon {
   width: 3em;
   height: 3rem;
-  color: rgb(255, 255, 54);
+  color: rgb(192, 192, 23);
 }
 
 .customCard {
   min-width: 300px;
   max-width: 400px;
   margin: 1.5rem auto;
+  background-color: rgb(74, 70, 70);
+  letter-spacing: 2px;
+  
 }
 
 
