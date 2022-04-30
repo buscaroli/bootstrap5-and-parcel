@@ -107,7 +107,7 @@ $warning: rgb(247, 231, 54);
 I have tried to use Bootstrap's row and column system to create three card that would respond to the screen's width.
 **However** I have found out that the cards were not centered and a big margin was left on the right side of the screen, which was particularly evident once the cards switched to a single column layout.
 
-I have very kindly been provided with a solution by two of my fellow trainee engineers at Futureproof ... which consisted of creating a custom class and implement a CSS grid.
+I have very kindly been provided with a solution by two of my fellow trainee engineers at Futureproof ( [William](https://github.com/Izgardon) and [Tom](https://github.com/tomhughes87) ) which consisted of creating a custom class and implement a CSS grid.
 
 That solution worked very well but with trial and fail I have found a different one, which consist in adding a margin property of " 0 auto " to the card, via a custom class (in this case called customCard):
 
